@@ -1,0 +1,23 @@
+/*console.log("Hello world");
+var number=8;
+var number1=10;
+var str="Bhavana"
+console.log(number+number1);
+console.log(str[0]);
+function multiply(num){
+  let number=10;
+  return number*num;
+}
+console.log(multiply(8));
+var array=["Bhavana",10];
+console.log(array);
+var multiaraay=[[1,2,3],[4,5,6],[7,8,9]];
+console.log(multiaraay);
+console.log(multiaraay[0][0]);*/
+var array=["Bhavana",10];
+array.push(["Jami","lol"]);//pops whole array
+console.log(array)
+array.pop();//shift deletes the first element instead of last item
+console.log(array)
+//unshift adds like push but adds in the begining the array
+

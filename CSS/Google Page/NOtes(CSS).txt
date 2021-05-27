@@ -1,0 +1,8 @@
+Cascading Style Sheets:()
+
+*Linking css file to html file:
+Inside the <head> of html file,include a tag something like this,
+<head>
+	<link rel="stylesheet" type="text/css" href="path of the css file">
+</head>
+*

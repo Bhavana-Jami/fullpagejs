@@ -1,0 +1,14 @@
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: black;
+  position: relative;
+}
+.header{
+  position: absolute;
+  top:0;
+  left: 0;
+  font-family: Gotham;
+}

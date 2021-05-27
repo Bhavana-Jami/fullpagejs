@@ -1,0 +1,23 @@
+.container{
+  border: 5px dotted;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+border-color: black;
+}
+.home{
+  border: 5px solid;
+  border-color: blue;
+}
+body{
+  background-color: hotpink;
+}
+input{
+  background-color: hotpink;
+  display: inline-block;
+  border-radius: 3px;
+  padding:10px 15px;
+}
+input:hover{
+  background-color: blue;
+}

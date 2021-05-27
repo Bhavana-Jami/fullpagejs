@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: black;
+    color: cyan;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.foot{
+  background-color: cyan;
+  margin-top: auto;
+}
+.head{
+  background-color: cyan;
+
+}

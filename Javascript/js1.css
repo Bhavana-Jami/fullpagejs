@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    border: 1.5px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    border-radius: 5px;
+}
+.buttons{
+    border: 1.5px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding:10px;
+}
+button{
+    padding: 10px;
+    border-radius: 3px;
+}
+#heading{
+    text-align: center;
+    padding: 10px;
+}
+#result{
+    border:1.5px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    align-self: center;
+}

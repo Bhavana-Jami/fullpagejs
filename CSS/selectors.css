@@ -1,0 +1,79 @@
+body{
+  background-color: #000000;
+}
+p{
+  display: inline-block;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  color: #00cc00;
+}
+.parent{
+  display: flex;
+  border:20px;
+  border-color:#00cc00;
+  border-width: medium;
+  justify-content: space-between;
+}
+/*#child1{
+  font-size: 30px;
+  font-family:"Courier New", Courier, monospace;
+  color: #00cc00;
+}
+#child2{
+  font-size:30px;
+  font-family: "Courier New", Courier, monospace;
+  color: #00cc00;
+}---->This is redundant code....*/
+#child1,#child2{
+  font-size:30px;
+  font-family: "Courier New", Courier, monospace;
+  color: #00cc00;
+}
+/**{
+  text-align: center;
+  color: #00cc00;
+}*/
+span+p{
+    font-size: 200px;/*selects the elements....just like the span~p bu it selects only one p */
+}
+/*span~p{
+  font-size:100px;/*Selects the evry tags that are just out of the container tag here p is just out of the closing of the span tag
+}*/
+span>p{
+  font-size: 50px;
+}
+a:link{
+  color: pink;
+}
+a:visited{
+  color: green;
+}
+a:active{
+  color: black;
+}
+a:hover{
+  color: hotpink;
+}
+a{
+  display: block;
+  font-size: 50px;
+}
+a.highlight:hover{
+  color: hotpink;
+  font-size: 30px;
+}
+p::first-letter{
+  color: powderblue;
+}
+p::first-line{
+  color: tomato;
+
+}
+p::after{
+  content: open-quote;
+}
+p{
+  background-color: lightgrey;
+  border-bottom: red solid 10px;
+}
+/*Attribute selectors are mostlly useful for forms styling....coz in that u may have multiple text boxex and multiplebuttons*/
