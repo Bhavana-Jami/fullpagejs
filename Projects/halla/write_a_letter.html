@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="write_a_letter.css">
+    <script src="https://kit.fontawesome.com/bb7fd58c11.js" crossorigin="anonymous"></script>
+    <title>Futureme</title>
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="hamburger_menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="links">
+            <ul>
+                <div class="logo">
+                    <a href="write_a_letter.html"><h3>To the future <i class="far fa-paper-plane"></i></h3></a>
+                </div>
+                <li></i><a href="#"><i class="fas fa-book-reader"></i> Read</a></li>
+                <li></i><a href="write_a_letter.html"><i class="fas fa-pen"></i> Write</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> User name</a></li>
+            </ul>
+        </div>
+        
+    </nav>
+   </header>
+    
+    <div class="main_body">
+        <div class="editor">
+           <h2>Letter from today @fetch today date n day ..</h2>
+          <textarea name="" id="texteditor" cols="70" rows="14"></textarea>
+        </div>
+        <div class="sending">    
+            <p class="send_element">Select the date</p>
+            <!-- <input class="send_element"  type="datetime" name="date" id="date" placeholder="Enter date"> -->
+            <div class="dropdown">
+                <select name="day" id="date1" class="send_element" onselect="check()">
+                    <option value="day">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <select name="month" id="date2" class="send_element">
+                    <option value="month">Month</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                </select>
+                <select name="year" id="date3" class="send_element">
+                    <option value="year">Year</option>
+                    <option value="1">2021</option>
+                    <option value="2">2022</option>
+                    <option value="3">2023</option>
+                    <option value="4">2024</option>
+                </select>
+            </div>
+            <p class="send_element">To what address</p>
+            <input class="send_element" type="email" name="email" id="email" placeholder="Enter your mail id">
+
+            <a href=""><button class="send_element" id="send_button" onclick="send()">Send to the future !</button></a> 
+            <!-- <button class="send_element" onclick="send()">Send to the future !</button> -->
+        </div>
+        <!-- <textarea name="result" id="result" cols="30" rows="10"></textarea> -->
+    </div>
+
+    <script src="write_a_letter.js"></script>
+    <!-- <script src="ckeditor_4.16.1_standard_easyimage\ckeditor\ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('editor');
+    </script> -->
+</body>
+</html>

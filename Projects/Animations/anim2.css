@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+p{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 50px;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    background:linear-gradient(-45deg,tomato,#64e4e3,#56eca3,#ecee34,#123c3e);
+    background-size: 400% 400%;
+    animation: hi 10s ease-in-out infinite;
+}
+@keyframes hi{
+    0%{
+       background-position: 0 50%; 
+    }
+    50%{
+        background-position: 100% 50%; 
+     }
+     100%{
+        background-position: 0 50%; 
+     }
+}

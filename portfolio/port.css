@@ -142,13 +142,13 @@ li,a{
 }
 .inside_about p{
   margin-right: 8rem;
-  font-weight:300;
+  /* font-weight:300; */
   text-align: center;
   font-family: 'Nanum Gothic Coding', monospace;
   font-weight: bold;
   letter-spacing: 1.3px;
   line-height: 28px;
-  text-align: justify;
+  text-align: left;
 }
 .inside_about h2{
   margin-right: 5rem;
@@ -164,8 +164,8 @@ li,a{
 
 }
 #my-image{
-  width:280%;
-  height: 360px;
+  width:270%;
+  height: 380px;
   /* background: url(./i.jpg) no repeat center / cover; */
   background-image: url(N160729.jpg);
   border-radius: 6px;
@@ -200,7 +200,7 @@ li,a{
   width:50%;
   height: 400px;
   /* background: url(./i.jpg) no repeat center / cover; */
-  background-image: url(./i.jpg);
+  background-image: url(hi.jpg);
   border-radius: 6px;
   background-position: center;
   background-repeat: no-repeat;
@@ -261,7 +261,7 @@ li,a{
   width:50%;
   height: 400px;
   /* background: url(./i.jpg) no repeat center / cover; */
-  background-image: url(./i.jpg);
+  background-image: url(google.png);
   border-radius: 6px;
   background-position: center;
   background-repeat: no-repeat;
@@ -270,7 +270,7 @@ li,a{
 }
 .righti{
   width:50%;
-  height: 250px;
+  height: 200px;
   margin-left:-10%;
   border-radius: 6px;
   display:flex;
@@ -352,7 +352,7 @@ li,a{
   font-weight: bold;
   letter-spacing: 1.1px;
   line-height: 27px;
-  text-align: justify;
+  text-align: center;
   font-family: 'Nanum Gothic Coding', monospace;
   font-weight: bold;
   color:#8892b0;
@@ -376,4 +376,12 @@ li,a{
   font-weight: lighter;
   font-size: 12.5px;
   align-items: center;
+}
+#snippet{
+  color: #64ffda;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  line-height: 27px;
+  font-size: 18px;
 }
