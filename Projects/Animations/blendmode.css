@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: url("Screenshot\ \(509\).png");
+}
+
+.multiply{
+   text-align: center;
+   margin-top: 14rem;
+   font-size: 200px;
+   mix-blend-mode: multiply;
+}

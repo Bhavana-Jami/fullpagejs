@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+p{
+    /* this is the basic styling for the p tag */
+    width: 200%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Comfortaa', cursive;
+    font-size: 8em;
+    /* animating background styling */
+    color: transparent;
+    background-image: linear-gradient(to left,#2ecc71,#3498db,#9b59b6,#f39c12);
+    -webkit-background-clip: text;
+    -webkit-background-size:500%;
+    background-size: 500%;
+    animation: hi 5s linear infinite;
+}
+@keyframes hi{
+    0%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* p{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6em;
+    font-family:'Comfortaa', cursive;
+    color:transparent;
+    background-image:linear-gradient(to left,#2ecc71,#3498db,#9b59b6,#f39c12);
+    -webkit-background-clip: text;
+    -webkit-background-size: 500%;
+     background-size:500%;
+    animation: hi 5s linear infinite;
+}
+@keyframes hi{
+    0%{
+       background-position: 0 100%; 
+    }
+    50%{
+        background-position: 100% 0; 
+     }
+     100%{
+        background-position: 0 100%; 
+     }
+} */

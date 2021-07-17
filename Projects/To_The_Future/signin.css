@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+:root {
+    --desktop:1200px;
+    --laptop:1024px;
+    --tablet:768px;
+    --phone:480px;
+    --a1:#5d001e;
+    --a2:#9a1750;
+    --a3:#ee4c7c;
+    --a4:#e3afbc;
+    --a5:#e3e2df;
+  }
+
+body{
+    background:linear-gradient(-45deg,var(--a1),var(--a2),var(--a3),var(--a2),var(--a3),var(--a2));
+    background-size: 400% 400%;
+    animation: hi 6s ease-in-out infinite;
+    overflow: hidden;
+    color: white;
+    -webkit-background-clip: text;
+}
+.container{
+    display: flex;
+    padding: 14.5rem;
+}
+.matter{
+    margin-right: 15rem;
+}
+p{
+    padding-top: 2rem;
+}
+a{
+    margin-top: 3rem;
+}
+@keyframes hi{
+    0%{
+       background-position: 0 50%; 
+    }
+    50%{
+        background-position: 100% 50%; 
+     }
+     100%{
+        background-position: 0 50%; 
+     }
+}

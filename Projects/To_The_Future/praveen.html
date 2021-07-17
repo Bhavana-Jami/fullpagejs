@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="readletters.css">
+	<script>
+		function passvalues()
+		{
+			var message=document.getElementByid("txt").value;
+			localStorage.setItem("textvalue",message);
+			return false;
+		}
+
+	</script>
+	</head>
+<body>
+
+<div class="para">
+<h2>Choose type of the  msg private or public:</h2>
+<form>
+  <input type="radio" id="private" name="choose type"  value="PRIVATE">
+   <label for="private" >PRIVATE</label><br>
+   <input type="radio" id="public" name="choose type" value="PUBLIC">
+     <label for="public">PUBLIC</label><br>
+   </form> </div><br><br>
+
+    <form action="Read.html">
+
+    <input type="textarea" id="txt"/>
+    <input type="submit" value="Submit" Onclick="passvalues()"/>
+  </form>
+
+
+
+</body>
+</html>
