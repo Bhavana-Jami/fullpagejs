@@ -31,7 +31,7 @@ export default class Card extends Component {
                 </div><div className="card">
                     <div className="icon">
                         <p>03</p>
-                        <a href="#" id="github_icon"><FontAwesomeIcon icon={faGithub}/></a> 
+                        <a href="#" id="github_icon"><FontAwesomeIcon icon={faGithub}/>ji</a> 
                         <a href="#"><FontAwesomeIcon icon={faExternalLinkAlt}/> </a>
                     </div>
                     <h3 className="inside_card">Project 3</h3>
