@@ -10,31 +10,17 @@ var date=document.querySelector('#date').value;
 hamburger.addEventListener('click', () => {
     navlinks.classList.toggle("open");
 });
-
-//sending data to the your_letters.html,sending the textarea content to the grid item there
-
-//function for sending the text
-// function sending_content_yourletters(){
-//     var string_textarea=document.getElementById("texteditor").value;
-//     localStorage.setItem("your_letter",string_textarea);
-// }
-// function redirecting_to_yourshtml(){
-//     window.location="your_letters.html";
-// }
-// // combining the above two functions on button click
-// // function send(){
-// //     // sending_content_yourletters();
-// //     // setTimeout(function(){
-// //     //     redirecting_to_yourshtml();
-// //     // },5000);
-// //     swal("Hello world!");
-// // }
 function sending_content_yourletters(){
     var string_textarea=document.getElementById("texteditor").value;
     localStorage.setItem('your_letter',string_textarea);
 }
 function redirecting_to_yourshtml(){
-    window.location="your_letters.html";
+    if(document.getElementById("email")==""){
+        alert("Enter your mail !");
+    }
+    else{
+        window.location="your_letters.html";
+    }
 }
 function redirecting_to_readhtml(){
     window.location="read.html";
@@ -57,9 +43,10 @@ function send(){
     // },1000);
     // swal("Wow..your letter just sent to the future !");
 }
+function logout(){
+    window.location="index.html";
+}
 
 
-// getting dates
-// var myDate=new Date();
 
 

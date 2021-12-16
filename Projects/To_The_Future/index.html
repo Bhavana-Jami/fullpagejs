@@ -1,95 +1,58 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Sign In</title>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
-<meta name="google-signin-client_id" content="580521927814-fbum9sboas5vji6a19hjp0nq8l8vm766.apps.googleusercontent.com">
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<style>
- .g-signin2{
-     margin-left:500px;
-     margin-top:200px;
-}
-.data{
-   display:none;
-}
-body{margin:0;
-        padding: 0;
-        background-image: linear-gradient(to right,#642b73,#c6426e);
-            
-    }
-        nav{
-            width:100%;
-            background-image: linear-gradient(to right,#642b73,#c6426e);
-            overflow: auto;
-        }
-        ul {
-            padding: 0;
-            margin: 0 0 0 150px;
-            list-style: none;
-        }
-        li{
-            float: left;
-        }
-        .logo img{
-            position: top-left;
-            margin-top: 15px;
-            max-width: 50%;
-            margin-left: 60px;
-            max-height: 80px;
-            overflow: visible;
-            padding-top: 0;
-            padding-bottom: 0;
-            background-repeat: no-repeat;
-
-            background-blend-mode:screen;
-            mix-blend-mode: lighten;
-        }
-        nav a{
-            width: 150px;
-            display: block;
-            padding: 20px 15px;
-            text-decoration: none;
-            font-family: arial;
-            color: black;
-            text-align: center;
-
-        }
-        h1{
-        font-family: comfortaa;
-        font-size: 22px;
-        font-style: italic;
-        text-align: left;
-        text-indent: 55px; 
-        }
-
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bb7fd58c11.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="signin.css">
+    <title>Sign In</title>
 </head>
-<body>  
- <div class="logo"><a href="#"><img src="logo.png"></a>
-<section>
-    <h1>Hai this is aish pursuing b.tech lolollololo
-        </h1>
-</section>
-</div>
-<div class="g-signin2" data-onsuccess="onSignIn"></div>
- <div class="data">
-        <p>Name</p>
-        <p id="name"></p>
-        <p>Image</p>
-        <img id="image" class="rounded-circle" width="100" height="100" />
-        <p>Email</p>
-        <p id="email"></p>
-        <button type="button" class="btn btn-danger" onclick="signOut();">Sign Out</button>
+<body>
+    <h2>To The Future !!</h2>
+    <div class="container">
+        <div class="row justify-content-center align-items-center" style="height:100vh">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="" autocomplete="off">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="username" placeholder="Enter Username" id="user">
+                            </div>
+                            <div class="form-group">
+                                <input id="pwd" type="password" class="form-control" name="password" placeholder="Enter Password">
+                            </div>
+                            <button type="button" id="sendregister" class="btn" onclick="register()">Register</button>
+                            <button type="button" id="sendlogin" class="btn" onclick="login()">Login</button>
+                            <button type="button" id="sendforget" class="btn" onclick="forget()">Forget</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <script src="index.js"></script>
+    <!-- <form class="container">
+        
+            <label>User Name</label>
+            <input type="text" name="text" id="username" placeholder="Enter username">
+            <label>Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter password">
+        
+        <div class="buttons">
+            <input type="button" value="New here?">
+            <input type="button" value="Login">
+            
+        </div>
+        <a href="forgot.html">Forgot Password?</a>
+    </form> -->
+    <script src="signin.js"></script>
 </body>
+
 </html>
-
-
-
-

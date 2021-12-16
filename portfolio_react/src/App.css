@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+
+:root{
+  --dark-navy: #020c1b;
+    --navy: #0a192f;
+    --light-navy: #112240;
+    --lightest-navy: #233554;
+    --navy-shadow: rgba(2,12,27,0.7);
+    --dark-slate: #495670;
+    --slate: #8892b0;
+    --light-slate: #a8b2d1;
+    --lightest-slate: #ccd6f6;
+    --white: #e6f1ff;
+  
+    --green-tint: rgba(100,255,218,0.1);
+    --pink: #f57dff;
+    --blue: #57cbff;
+    --electric-blue:#7DF9FF;
+    --font-sans: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    --font-mono: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+  scroll-behavior: smooth;
+  
+}
+body{
+  background-color: var(--dark-navy);
+  font-family: var(--font-sans);
+  line-height: 23px;
+  letter-spacing: 1px;
+}
+
+
+main{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav{
+  color: #a8b2d1;
+}
+.glass{
+  
+  backdrop-filter: blur(12px) saturate(153%);
+    -webkit-backdrop-filter: blur(12px) saturate(153%);
+    background-color: rgba(136, 146, 176, 0.15);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    color: #a8b2d1;
+  height: 75vh;
+  width: 70%;
+  z-index: 3;
+  
+}
+.circle1{
+  backdrop-filter: blur(12px) saturate(200%);
+  -webkit-backdrop-filter: blur(12px) saturate(200%);
+  background-color: rgba(136, 146, 176, 0.37);
+  border-radius: 50%;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  z-index: 1;
+  height: 15rem;
+  width: 15rem;
+
+  position: absolute;
+  top: 5%;
+ 
+}
+
+/* cards styling */
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+  grid-gap: 1.4rem;
+  margin:6rem;
+}
+.card{
+  background: var(--light-navy);
+  backdrop-filter: blur(16px) saturate(163%);
+  -webkit-backdrop-filter: blur(16px) saturate(163%);
+  
+  border-radius:5px;
+  /* margin:1rem; */
+  padding: 1.5rem;
+  overflow: hidden;
+}
+.inside_card{
+  padding: 0.7rem;
+}
+.card:hover{
+
+  transition: transform 0.6s;
+  transform: translateY(-12px);
+  
+}
+.card:hover h3{
+ color:var(--electric-blue);
+}
+.card h3{
+  color: var(--white);
+}
+p{
+  color: var(--lightest-slate);
+  font-size: medium;
+  font-weight: 400;
+}
+span{
+  color: var(--lightest-slate);
+  font-family: var(--font-mono);
+  font-weight: 10;
+}
+.card:hover span{
+  color:var(--electric-blue);
+ }
+.icon{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.8rem;
+  
+}
+.icon a{
+  font-size: 23px;
+  
+  color: var(--lightest-slate);
+  
+}
+.card:hover a{
+  color:var(--electric-blue);
+ }
+#github_icon{
+  padding-right:1.7rem;
+}
+.icon p{
+  font-size: 3.9em;
+  color: var(--electric-blue);
+  pointer-events: none;
+  font-weight: bolder;
+  position: absolute;
+  
+  top: 1rem;
+  left: 0.2rem;
+
+
+}
+
+

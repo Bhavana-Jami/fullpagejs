@@ -11,3 +11,6 @@ hamburger.addEventListener('click', () => {
 //for fetching the value from the write_a_letter.html,the textarea content
 // document.getElementsById('letter1').innerHTML=localStorage.getItem('your_letter');
 document.querySelector("#letter1").innerHTML = localStorage.getItem('your_letter');
+function logout(){
+    window.location="index.html";
+}

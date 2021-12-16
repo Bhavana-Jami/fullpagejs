@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.emoji{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+}
+.close{
+    display: none;
+}
+.open{
+    display: none;
+}
+.active{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}

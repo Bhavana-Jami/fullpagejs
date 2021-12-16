@@ -102,6 +102,23 @@ i{
 .links li a:hover,.links li a:focus{
     outline-offset: 2px;
 }
+#logout{
+    padding: 0.5rem 1rem;
+    color:#5d001e;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    -moz-outline-radius: 10px;
+    border: 2px solid var(--a3);
+    outline: 2px solid var(--a1);
+    outline-offset: -2px;
+    transition: outline-offset 200ms ease;
+    z-index: -1;
+    cursor: pointer;
+}
+#logout:hover,#logout:focus{
+    outline-offset: 2px;
+}
 
 /* main body */
 .editor{

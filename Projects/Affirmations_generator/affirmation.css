@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+:root{
+  filter:drop-shadow(20%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Comfortaa', cursive;
+    font-size:20px;
+}
+.btn{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  
+}
+.btn{background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%)
+  }
+.btn {
+     margin: 10px;
+     padding: 35px 45px;
+     text-align: center;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #5FC3E4;
+     border-radius: 5px;
+     display: block;
+   }
+.btn:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+.container{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  cursor: pointer;
+    height: 18vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-left-color:#E55D87;
+    border-right-color:#5FC3E4 ;
+    border-bottom-color:#E55D87 ;
+    border-top-color:#5FC3E4 ;
+    box-shadow: 0 0 20px #E55D87 ;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5rem 2rem;
+}
+/* button two */
+.btn2{
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  
+}
+.btn2{
+  background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+  display:none;
+}
+.btn2 {
+   margin: 10px;
+   padding: 30px 45px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #5FC3E4;
+   border-radius: 5px;
+   display: block;
+ }
+ .btn2:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ /* button three */
+ .btn3{
+  position: absolute;
+  left: 50%;
+  top: 79%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  
+}
+.btn3{
+  background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+  display:none;
+}
+.btn3 {
+   margin: 10px;
+   padding: 30px 45px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #5FC3E4;
+   border-radius: 5px;
+   display: block;
+ }
+.btn3:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ /* end screen */
+.end_screen{
+  display: none;
+}
+.lol{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  white-space: nowrap;
+   box-shadow: 0 0 20px #5FC3E4;
+   border-radius: 6px;
+   /* background-color: #5FC3E4; */
+    padding: 7rem 10rem;
+   font-weight: bolder; 
+} 

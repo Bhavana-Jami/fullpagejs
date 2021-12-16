@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior:smooth;
+  
+}
+.date_picker:focus{
+  border-color: #0275d8;
+}
+.out_of_zone{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: -1rem 4rem;
+  padding-bottom: 2rem;
+  
+}
+.main_page{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 2rem 2rem;
+  padding: 2rem;
+  
+}
+.btn{
+  margin-top: 2rem;
+  padding: 6rem;
+}
+.links{
+  text-decoration: none;
+  color: blueviolet;
+}
+/* //signin */
+.signin{
+  margin: 5rem 25rem;
+  background-color: aliceblue;
+  padding: 2rem 5rem;
+  border-radius: 0.5rem;
+}
+.home{
+  margin: 5rem 15rem;
+  background-color: aliceblue;
+  padding: 4rem 5rem;
+  border-radius: 0.5rem;
+ text-align: center;
+}
+.home h1{
+  padding-bottom: 1rem;
+}
+.home p{
+  font-size: 20px;
+  font-weight:490;
+}
+
+.read{
+  margin: 2rem 5rem;
+  display: flex;
+}
+.card{
+  margin: 1rem;
+  box-shadow: 10px 10px 5px aliceblue;
+}
+
+.your_letters{
+  margin: 3.5rem 8rem;
+  background-color: aliceblue;
+  padding: 4rem 8rem;
+  border-radius: 0.5rem;
+}
+.your_letters h2{
+  padding-bottom: 2rem;
+}

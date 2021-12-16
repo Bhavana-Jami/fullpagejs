@@ -8,17 +8,16 @@
 }
 h1{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 body{
     overflow: hidden;
 }
 .wrapper{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center; 
-    min-height: 80vh;
-    flex-wrap: wrap;
+    min-height: 30vh;
 }
 .wrapper div{
     margin: 12px;
@@ -33,7 +32,6 @@ body{
     background-color:#081517;
     padding: 15px 30px;
     color: #66cc81;
-    
     border-radius: 30px;
     font-size: 20px;
     transition: 0.5s;
@@ -43,8 +41,14 @@ body{
 .wrapper div label input[type="checkbox"]:checked ~ span{
     background-color:#57C76D;
     color:#081517;
-   font-weight: bold;
-   box-shadow: 10px 10px 50px #081517;
+    font-weight: bold;
+     box-shadow: 10px 10px 50px #081517;
+}
+
+/* go button */
+#button{
+  padding:22rem;
+  border-radius: 2px solid #081517;
 }
 
 @keyframes slideInLeft {
@@ -54,33 +58,6 @@ body{
     100% {
       transform: translateX(0);
     }
-  }
-  #arrow_right {
-    animation: 1s ease-out 0s 1 slideInLeft;
-    font-size: 50px;
-    margin-left: 68rem;
-    margin-top: -5rem;
-  }
-  #arrow_left{
-    animation: 1s ease-out 0s 1 slideInRight;
-    font-size: 50px;
-    /* margin-left: 15rem; */
-    margin-top: -5rem;
-  }
-  .arrows{
-    font-size: 50px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .arrows i{
-    margin-top: -5rem;
-    margin-left: 28rem;
-    margin-right: 28rem;
-  }
-  #line{
-    width: 1.5px;
-    height: 300px;
-    background-color: #081517;
-    margin-left: 2rem;
-    box-shadow: 50px 50px 500px #081517;
-  }
+}
+ 
+ 

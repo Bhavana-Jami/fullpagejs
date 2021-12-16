@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Rubik:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
 *{
   background-color:#0a192f;
   /* box-sizing: border-box; */
@@ -269,6 +270,51 @@ li,a{
   box-shadow: 200px;
 }
 .righti{
+  width:50%;
+  height: 200px;
+  margin-left:-10%;
+  border-radius: 6px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  color:#8892b0;
+  padding: 15px;
+  border: 1.5px solid #64ffda;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+  line-height: 27px;
+  text-align: justify;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-weight: bold;
+}
+.s3ii{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerii{
+  width:90%;
+  max-width: 10000px;
+  margin:0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.leftii{
+  width:50%;
+  height: 400px;
+  /* background: url(./i.jpg) no repeat center / cover; */
+  background-image: url(2.png);
+  border-radius: 6px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  box-shadow: 200px;
+}
+.rightii{
   width:50%;
   height: 200px;
   margin-left:-10%;
