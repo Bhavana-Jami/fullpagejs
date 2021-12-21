@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState } from 'react'
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 // import axios from 'axios';
 
 import Navbar from './components/Navbar';
@@ -23,13 +23,13 @@ function App() {
       <div className="App">
         {/* <Navbar/> */}
         <Footer/>
-        <Switch>
+        <Routes>
           <Route path="/"  exact component={Home}/>
           <Route path="/Write" component={Write}/>
           <Route path="/Read" component={Read}/>
           <Route path="/Signin" component={Signin}/> 
           <Route path="/Your_letters" component={Your_letters}/>
-        </Switch>
+        </Routes>
       </div> 
      </Router> 
   );
