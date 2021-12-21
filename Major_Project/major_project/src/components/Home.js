@@ -24,7 +24,7 @@ export default class Home extends Component {
             <div>
                  <ul>
                <li>Quiz</li>
-          <li>Guidance</li>
+                <li>Guidance</li>
                 <li>Rating</li>
                 <li>Knowledge Sharing</li>
                 <li>Project Profile</li>
