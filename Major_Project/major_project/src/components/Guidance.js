@@ -1,21 +1,44 @@
-// import React from 'react'
-
-// function Guidance() {
-//     return (
-//         <div>
-//             <h1>this is guidance page</h1>
-//         </div>
-//     )
-// }
-
-// export default Guidance
+import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import { Button,Card } from 'react-bootstrap';
 
 export default class Guidance extends Component {
     render() {
         return (
-            <div>
-                 <h1>this is guidance page</h1>
+            <div className='guidance_wrapper'>
+                <Card className='g-card'>
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
+                <Card className='g-card'>
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
+                <Card className='g-card'>
+                    <Card.Body>
+                        <Card.Title>Card Title</Card.Title>
+                        <Card.Text>
+                            Some quick example text to build on the card title and make up the bulk of
+                            the card's content.
+                        </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                    </Card.Body>
+                </Card>
+
             </div>
         )
     }
