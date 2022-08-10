@@ -26,7 +26,7 @@ export default class Navbarr extends Component {
 
 
                 </ul>  */}
-        <div className='navbar-container'>
+        <div className='navbar-container' id='hide-navbar'>
           <Navbar fixed="top" collapseOnSelect expand="lg" bg="light" variant="light" >
             <Container id='navbar'>
               <Navbar.Brand id='guide-u'>Guide <span>U.</span></Navbar.Brand>
@@ -35,11 +35,12 @@ export default class Navbarr extends Component {
                 <Nav id="nav-right">
                   <Nav.Link > <Link to="Home" style={{ textDecoration: 'none', color: 'black' }}>Home</Link></Nav.Link>
                   <NavDropdown title="Community" id="basic-nav-dropdown" style={{ textDecoration: 'none', color: 'black' }}>
-                    <NavDropdown.Item><Link to="Posts" style={{ textDecoration: 'none', color: 'black',fontSize:'20px' }}>Idea Sharing</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to="LoginForm" style={{ textDecoration: 'none', color: 'black',fontSize:'20px' }}>Meet</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to="Ideas" style={{ textDecoration: 'none', color: 'black',fontSize:'20px' }}>Idea Sharing</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to="Apppp" style={{ textDecoration: 'none', color: 'black',fontSize:'20px' }}>Meet People</Link></NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link > <Link to="ProjectProfile" style={{ textDecoration: 'none', color: 'black' }}>Profile</Link></Nav.Link>
                  
+                  
                 </Nav>
               </Navbar.Collapse>
             </Container>
